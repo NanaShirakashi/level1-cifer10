@@ -41,6 +41,8 @@ files = os.listdir(path)
 plt.xticks(X + w/2,files)
 plt.grid(True)
 
+plt.title('AmountofCifar10')
+plt.xlabel('Labels')
+plt.ylabel('NUmber of Data')
+
 plt.show()
-
-
